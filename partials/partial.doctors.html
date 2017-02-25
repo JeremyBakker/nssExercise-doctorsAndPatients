@@ -1,0 +1,8 @@
+<div class="panel panel-default" ng-repeat="doctor in doctors">
+  <div class="panel-heading">
+    <h3 class="panel-title"><a href="#!/patients/{{doctor.lastName}}">{{doctor.firstName}} {{doctor.lastName}}</a></h3>
+  </div>
+  <div class="panel-body">
+    {{doctor.specialty}}
+  </div>
+</div>

@@ -1,0 +1,45 @@
+{
+    "doctors": [
+        {
+            "killigrew": {
+                "first_name": "Johan",
+                "last_name": "Killigrew",
+                "specialty": "Pediatrics"
+            }
+        },
+        {
+            "wilson": {
+                "first_name": "Caroline",
+                "last_name": "Wilson",
+                "specialty": "Orthopedics"
+            }
+        },
+        {
+            "elder": {
+                "first_name": "Stephen",
+                "last_name": "Elder",
+                "specialty": "Geriatrics"
+            }
+        }
+    ],
+    "patients": [
+        {
+                "first_name": "Margot",
+                "last_name": "Svenson",
+                "ailment": "Arthritis",
+                "doctor_id": "elder"
+        },
+        {
+                "first_name": "Erica",
+                "last_name": "Johnston",
+                "ailment": "Fracture",
+                "doctor_id": "wilson"
+        },
+        {
+                "first_name": "Stephanie",
+                "last_name": "Harris",
+                "ailment": "Flu",
+                "doctor_id": "killigrew"
+        }
+    ]
+}

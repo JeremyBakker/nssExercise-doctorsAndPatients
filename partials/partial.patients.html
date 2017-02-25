@@ -1,0 +1,13 @@
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title">Doctor {{routeParams}}'s Patients</h3>
+  </div>
+  <div ng-repeat="patient in patients">
+	  <div class="panel-body">
+	    Name: {{patient.firstName}} {{patient.lastName}}
+	  </div>
+	  <div class="panel-body">
+	  	Ailment: {{patient.ailment}}
+	  </div>
+  </div>
+</div>
